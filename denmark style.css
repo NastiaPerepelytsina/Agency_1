@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+}
+.item_menu a{
+    text-decoration: none;
+    font-family: Arial;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.logo h1 {
+    font-family: Arial;
+    font-size: 25px;
+    color: darkslategrey;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    font-family: Arial;
+    font-size: 25px;
+    color: darkslategrey;
+}
+.rezerv{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.rezerv img{
+    width: 600px;
+}
+.rezerv p{
+    font-family: Arial;
+    font-size: 16px;
+    color: darkslategrey;
+    line-height: 25px;
+    width: 600px;
+}
+.
+.name{
+    display: flex;
+    justify-content: ;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+.fild_1{
+    display: flex;
+    gap: 30px;
+}
+.form label{
+    color: white;
+}
+.title_2{
+    display: flex;
+    justify-content: center;
+}
+.title_2 h2{
+    font-family: Arial;
+    font-size: 25px;
+    color: darkslategrey;
+}
+.gallery{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.gallery img{
+    width: 400px;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,118 @@
+.menu{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+}
+.item_menu a{
+    text-decoration: none;
+    font-family: Arial;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.logo h1 {
+    font-family: Arial;
+    font-size: 25px;
+    color: darkslategrey;}
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.title{
+    display: block;
+    text-align: center;
+    color: darkslategrey;
+    font-family: Arial;
+    font-size: 25px;
+}
+.about img{
+    height: 400px;
+}
+.about p{
+    width: 600px;
+    font-family: Arial;
+    color: black;
+    line-height: 25px;
+}
+.item_team{
+    display: block;
+}
+.item_team img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.item_team h3{
+    color: darkslategrey;
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+.team{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 30px;
+}
+.titl_2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    background-color: darkslategrey;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+.com{
+    display: grid;
+    line-height: 25px;
+    align-self: center;
+}
+.link{
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.link_item{
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.com img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+}

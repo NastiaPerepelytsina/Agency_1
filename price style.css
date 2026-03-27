@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.item_menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: center;
+}
+.item_menu a{
+    text-decoration: none;
+    font-family: Arial;
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.logo h1 {
+    font-family: Arial;
+    font-size: 25px;
+    color: darkslategrey;
+}
+.block_1{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.block_1 img{
+    width: 600px;
+}
+.block_1 p{
+    width: 600px;
+    font-family: Arial;
+    font-size: 18px;
+    color: darkslategrey;
+    line-height: 30px;
+}
+.price{
+    display: flex;
+    background-color: darkslategrey;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
+
+}
+.title_price{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding-bottom: 30px;
+}
+.title_price h1{
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+}
+.item_price{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: azure;
+    box-shadow: 6px 0px 30px 0px #ece9e9;
+}
+.item_price h2{
+    font-family: Arial;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 20px;
+}
+.item_price h3{
+    font-family: Arial;
+    color: darkslategrey;
+    text-align: center;
+    font-size: 20px;
+}
+.item_price li{
+    font-family: Arial;
+    color: darkslategrey;
+    text-align: left;
+    padding-right: 15px;
+}
+.press{
+    display: flex;
+    justify-content: center;
+}
+.btn_price{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-radius: 30pc;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+.com{
+    display: grid;
+    line-height: 25px;
+    align-self: center;
+}
+.link{
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.link_item{
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+.com img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    align-items: center;
+}
