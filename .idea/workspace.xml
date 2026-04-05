@@ -70,10 +70,10 @@
 }</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1777651297533" />
-    <option name="spentUsd" value="0.044508502" />
+    <option name="spentUsd" value="0.051106602" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="6" />
+    <option name="suspendCountdown" value="5" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -89,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775386871270</updated>
-      <workItem from="1775386872284" duration="12201000" />
+      <workItem from="1775386872284" duration="13174000" />
     </task>
     <task id="LOCAL-00001" summary="add branche">
       <option name="closed" value="true" />
@@ -131,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775399471291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pull request">
+      <option name="closed" value="true" />
+      <created>1775403225923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775403225923</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +164,27 @@
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="github/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="file:$PROJECT_DIR$/contact.html" />
+                  <option value="file:$PROJECT_DIR$/package.json" />
+                  <option value="dir:D:/Anastasia/Projektor/Front end Development/Tasks/Agency_1/img" />
+                  <option value="file:$PROJECT_DIR$/tours.html" />
+                  <option value="file:$PROJECT_DIR$/about.html" />
+                  <option value="file:$PROJECT_DIR$/style.css" />
+                  <option value="file:$PROJECT_DIR$/price.html" />
+                  <option value="dir:D:/Anastasia/Projektor/Front end Development/Tasks/Agency_1/.idea" />
+                  <option value="dir:D:/Anastasia/Projektor/Front end Development/Tasks/Agency_1/images" />
+                  <option value="file:$PROJECT_DIR$/index.html" />
+                  <option value="file:$PROJECT_DIR$/test.html" />
                 </option>
               </RecentGroup>
             </list>
