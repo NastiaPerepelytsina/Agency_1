@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="pull request">
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="pull request" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1775386871270</updated>
-      <workItem from="1775386872284" duration="14793000" />
+      <workItem from="1775386872284" duration="15130000" />
     </task>
     <task id="LOCAL-00001" summary="add branche">
       <option name="closed" value="true" />
@@ -171,7 +169,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775453830815</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pull request">
+      <option name="closed" value="true" />
+      <created>1775454017002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775454017002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="pull request">
+      <option name="closed" value="true" />
+      <created>1775454066785</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1775454066785</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
