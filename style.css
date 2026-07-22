@@ -1,216 +1,17 @@
-*{
+
+
+* {
     box-sizing: border-box;
 }
 
-.index .about .contact .denmark .tour .price menu {
-    display: flex;
-    background-color: white;
-    align-items: center;
-    justify-content: space-around;
-}
-.item_menu{
-    display: flex;
-    list-style: none;
-    gap: 40px;
-    justify-content: center;
-}
-.item_menu a{
-    text-decoration: none;
-    color: darkslategrey;
-    font-weight: bolder;
-    font-family: Algerian, serif;
-}
-.logo{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-.logo img{
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    border-radius: 100%;
-}
-.logo h1 {
-    font-size: 25px;
-    color: darkslategrey;
-    font-family: Algerian, serif;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.logo h1 {
-    font-family: Algerian, serif;
-}
-
-header{
-background-image: url("img/best-travel-background-3840-x-2160-4d9yq9qp694i6zkj.jpg");
-    background-position: 50% 40%;
-    padding: 130px 0;
-    background-repeat: no-repeat;
-    text-align: center;
-}
-h2{
-    color: white;
-    font-size: 30px;
-}
-
-p {
-    color: white;
-    font-size: 20px;
-}
-.dest{
-    background-color: cadetblue;
-    display: flex;
-    justify-content: center;
-
-}
-.dest_item{
-    display: block;
- align-content: center;
-}
-.dest_item h2{
-    font-size: 35px;
-    color: white;
-    font-family: Algerian, serif;
-    text-align: center;
-}
-.dest_item h3{
-    font-size: 20px;
-    color: white;
-    font-family: Arial, serif;
-    text-align: center;
-}
-.dest_item img{
-    width: 500px;
-    justify-items: center;
-    padding-bottom: 15px;
-}
-.btn{
-   display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-}
-.info{
-    background-color: white;
-    padding: 10px;
-    font-family: Arial, serif;
-    font-size: 16px;
-    border-radius: 50px;
-    cursor: pointer;
-    border: darkgrey 1px;
-}
-
-.services{
-    display: block;
-}
-.title_2{
-    text-align: center;
-    color: cadetblue;
-    font-family: Arial, serif;
-    font-size: 35px;
-}
-.order{
-    text-align: center;
-    color: cadetblue;
-    font-family: Arial, serif;
-    font-size: 20px;
-}
-.card{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 15px;
-}
-.card img{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
-.card p{
-    font-family: Arial, serif;
-    font-size: 25px;
-    color: orange;
-    text-align: center;
-}
-.card button{
-    background-color: orange;
-    font-family: Arial, serif;
-    font-size: 16px;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    border-radius: 50px;
-    cursor: pointer;
-    align-items: center;
-    border: darkgrey 1px;
-}
-
-.cont_titl {
-    display: flex;
-    justify-content: center;
-}
-.contact{
-    display: block;
-}
-.item_cnt{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-}
-.title_contact{
-    font-family: Arial, serif;
-    font-size: 30px;
-    color: cadetblue;
-    text-align: center;
-}
-.item_cnt p{
-    font-family: Arial, serif;
-    font-size: 16px;
-    color: black;
-    text-align: left;
-    width: 400px;
-    line-height: 20px;
-}
-.item_cnt img{
-    width: 500px;
-}
-.mail{
-    text-decoration: none;
-    color: black;
-}
-footer{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    align-items: center;
-}
-.com{
-    display: grid;
-    line-height: 25px;
-   align-self: center;
-}
-.link{
-    text-align: center;
-    font-family: Arial, serif;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-}
-.link_item{
-    text-align: center;
-    font-family: Arial, serif;
-    font-size: 12px;
-    color: black;
-    text-decoration: none;
-}
-.com img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    align-items: center;
-}
-
+/* =========================
+   Navigation
+========================= */
 
 .menu {
     display: flex;
@@ -221,16 +22,29 @@ footer{
 
 .item_menu {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 40px;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.item_menu li {
+    list-style: none;
 }
 
 .item_menu a {
     text-decoration: none;
-    font-family: Arial, serif;
     color: darkslategrey;
     font-weight: bolder;
+    font-family: Arial, serif;
+}
+
+.item_menu select {
+    font-family: Arial, serif;
+    color: darkslategrey;
+    padding: 5px;
 }
 
 .logo {
@@ -252,96 +66,173 @@ footer{
     color: darkslategrey;
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    align-items: center;
-    padding-bottom: 25px;
-}
+/* =========================
+   Header
+========================= */
 
-.title {
-    display: block;
+header {
+    background-image: url("img/best-travel-background-3840-x-2160-4d9yq9qp694i6zkj.jpg");
+    background-position: 50% 40%;
+    padding: 130px 0;
+    background-repeat: no-repeat;
     text-align: center;
-    color: darkslategrey;
-    font-family: Arial, serif;
-    font-size: 25px;
 }
 
-.about img {
-    height: 400px;
-}
-
-.about p {
-    width: 600px;
-    font-family: Arial, serif;
-    color: black;
-    line-height: 25px;
-}
-
-.item_team {
-    display: block;
-}
-
-.item_team img {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-}
-
-.item_team h3 {
-    color: green;
-    font-size: 18px;
-    font-family: Arial, serif;
-    text-align: center;
+header h2 {
     color: white;
+    font-size: 30px;
 }
 
-.team {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    background-color: darkslategrey;
-    padding: 30px;
-}
-
-.titl_2 {
-    display: flex;
-    justify-content: center;
+header p {
     color: white;
     font-size: 20px;
-    font-family: Arial, serif;
-    background-color: darkslategrey;
 }
 
-footer .about .contact .denmark .tour .price {
+/* =========================
+   Destinations
+========================= */
+
+.dest {
+    background-color: cadetblue;
     display: flex;
-    justify-content: space-around;
-    padding: 15px;
+    justify-content: center;
+}
+
+.dest_item {
+    display: block;
+    text-align: center;
+}
+
+.dest_item h2 {
+    font-size: 35px;
+    color: white;
+    font-family: Algerian, serif;
+    text-align: center;
+}
+
+.dest_item h3 {
+    font-size: 20px;
+    color: white;
+    font-family: Arial, serif;
+    text-align: center;
+}
+
+.dest_item img {
+    width: 500px;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+/* =========================
+   Buttons
+========================= */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.info {
+    background-color: white;
+    padding: 10px;
+    font-family: Arial, serif;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid darkgrey;
+}
+
+.card button {
+    background-color: orange;
+    font-family: Arial, serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid darkgrey;
+}
+
+.text button {
+    background-color: white;
+    font-family: Arial, serif;
+    color: black;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn_price {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
     align-items: center;
 }
 
-.com {
-    display: grid;
-    line-height: 25px;
-    align-self: center;
+/* =========================
+   Services
+========================= */
+
+.services {
+    display: block;
 }
 
-.link {
+.title_2 {
     text-align: center;
+    color: cadetblue;
     font-family: Arial, serif;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
+    font-size: 35px;
 }
 
-.link_item {
+.order {
     text-align: center;
+    color: cadetblue;
     font-family: Arial, serif;
-    font-size: 12px;
-    color: black;
-    text-decoration: none;
+    font-size: 20px;
+}
+
+/* =========================
+   Cards
+========================= */
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.card p {
+    font-family: Arial, serif;
+    font-size: 25px;
+    color: orange;
+    text-align: center;
+}
+
+/* =========================
+   Contact
+========================= */
+
+.cont_titl {
+    display: flex;
+    justify-content: center;
 }
 
 .contact {
@@ -349,16 +240,38 @@ footer .about .contact .denmark .tour .price {
     justify-content: center;
 }
 
+.item_cnt {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
 .title_contact {
     display: block;
     text-align: center;
+    font-family: Arial, serif;
+    font-size: 30px;
+    color: cadetblue;
 }
 
-.com img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    align-items: center;
+.item_cnt p {
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    width: 400px;
+    line-height: 20px;
+}
+
+.item_cnt img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
 }
 
 .comunication {
@@ -388,18 +301,14 @@ footer .about .contact .denmark .tour .price {
 .item_con p {
     font-family: Arial, serif;
     font-size: 16px;
-    color: darkslategrey;
+    color: black;
     text-align: left;
     line-height: 20px;
-    color: black;
 }
 
-.block_1 {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 20px;
-}
+/* =========================
+   About
+========================= */
 
 .title {
     display: flex;
@@ -410,15 +319,85 @@ footer .about .contact .denmark .tour .price {
     font-size: 30px;
 }
 
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.about img {
+    height: 400px;
+    max-width: 100%;
+}
+
+.about p {
+    width: 600px;
+    font-family: Arial, serif;
+    color: black;
+    line-height: 25px;
+}
+
+.item_team {
+    display: block;
+}
+
+.item_team img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.item_team h3 {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, serif;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: darkslategrey;
+    padding: 30px;
+}
+
+.titl_2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, serif;
+    background-color: darkslategrey;
+}
+
+/* =========================
+   Tours
+========================= */
+
+.block_1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .block_1 img {
-    width: 500px;
+    width: 600px;
+    max-width: 100%;
 }
 
 .block_1 p {
-    width: 1200px;
+    width: 600px;
     font-family: Arial, serif;
     font-size: 18px;
     color: darkslategrey;
+    line-height: 30px;
 }
 
 .place {
@@ -441,13 +420,9 @@ footer .about .contact .denmark .tour .price {
     text-align: center;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-}
-
 .place img {
     width: 500px;
+    max-width: 100%;
 }
 
 .text {
@@ -463,20 +438,11 @@ footer .about .contact .denmark .tour .price {
 
 .text p {
     width: 600px;
+    max-width: 100%;
     font-family: Arial, serif;
     font-size: 16px;
     line-height: 25px;
     color: white;
-}
-
-.text button {
-    background-color: white;
-    font-family: Arial, serif;
-    color: black;
-    font-size: 14px;
-    border-radius: 50px;
-    padding: 10px;
-    cursor: pointer;
 }
 
 .text li {
@@ -485,26 +451,9 @@ footer .about .contact .denmark .tour .price {
     font-size: 16px;
 }
 
-.block_1 {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.block_1 img {
-    width: 600px;
-}
-
-.block_1 p {
-    width: 600px;
-    font-family: Arial, serif;
-    font-size: 18px;
-    color: darkslategrey;
-    line-height: 30px;
-}
+/* =========================
+   Pricing
+========================= */
 
 .price {
     display: flex;
@@ -512,7 +461,6 @@ footer .about .contact .denmark .tour .price {
     justify-content: center;
     gap: 80px;
     padding: 40px;
-
 }
 
 .title_price {
@@ -534,7 +482,7 @@ footer .about .contact .denmark .tour .price {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    border: azure;
+    border: 1px solid azure;
     box-shadow: 6px 0 30px 0 #ece9e9;
 }
 
@@ -564,18 +512,43 @@ footer .about .contact .denmark .tour .price {
     justify-content: center;
 }
 
-.btn_price {
+/* =========================
+   Footer
+========================= */
+
+footer {
     display: flex;
-    justify-content: center;
-    background-color: darkslategrey;
-    font-family: Arial, serif;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    border-radius: 30pc;
-    cursor: pointer;
-    padding: 10px;
+    justify-content: space-around;
+    padding: 15px;
     align-items: center;
 }
 
+.com {
+    display: grid;
+    line-height: 25px;
+    align-self: center;
+}
 
+.link {
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.link_item {
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.com img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+```
