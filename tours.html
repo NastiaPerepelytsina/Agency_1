@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <title>Tours</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav class="menu">
+<nav class="menu" id="mainMenu">
     <div class="logo">
-        <a href="http://"><img alt="" src="img/logo.png"></a>
+        <a href="index.html"><img src="img/logo.png" alt=""></a>
         <h1>ViaVenture Travel</h1>
     </div>
-    <div class="item_menu">
-        <ul>
-            <li><a href="about.html">About Company</a></li>
+    <ul class="item_menu">
+        <li><a href="about.html">About Company</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="tours.html">Tours</a></li>
         <li><a href="price.html">Pricing</a></li>
-        <select><a href="http://"><option>Destination</option></a>
-            <a href="http://"><option>Denmark</option></a>
-            <a href="http://"><option>Australia</option></a>
-            <a href="http://"><option>Finland</option></a>
-            <a href="http://"><option>Germany</option></a>
-            <a href="http://"><option>Poland</option></a> </ul>
-        </select>
-
-
-
-    </div>
+        <li>
+            <select aria-label="Destination">
+                <option>Destination</option>
+                <option>Denmark</option>
+                <option>Australia</option>
+                <option>Finland</option>
+                <option>Germany</option>
+                <option>Poland</option>
+            </select>
+        </li>
+    </ul>
 
 </nav>
 <div class="title"><H1>Our tours</H1></div>
@@ -117,22 +118,25 @@
 </main>
 <footer>
     <div class="com">
-        <img alt="" src="img/logo.png">
+        <img src="img/logo.png">
 
     </div>
     <div class="com">
         <a class="link" href="http://">Company</a>
-        <a class="link_item" href="http://">About company</a>
-        <a class="link_item" href="http://">Tours</a>
+        <a class="link_item" href="about.html">About company</a>
+        <a class="link_item" href="tours.html">Tours</a>
 
     </div>
     <div class="com">
         <a class="link" href="http://">Useful links</a>
-        <a class="link_item" href="http://">Pricing</a>
-        <a class="link_item" href="http://">Contact</a>
+        <a class="link_item" href="price.html">Pricing</a>
+        <a class="link_item" href="contact.html">Contact</a>
 
     </div>
+
 </footer>
 
+
+<script src="script.js"></script>
 </body>
 </html>
