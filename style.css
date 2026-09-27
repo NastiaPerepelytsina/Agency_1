@@ -151,6 +151,7 @@ header p {
     justify-content: center;
     gap: 20px;
     padding-bottom: 15px;
+    flex-wrap: wrap;
 }
 button{
     text-align: center;
