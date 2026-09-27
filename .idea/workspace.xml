@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="responsive design">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,73 +52,73 @@
     &quot;assignee&quot;: &quot;NastiaPerepelytsina&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NastiaPerepelytsina/Agency_1.git",
-    "accountId": "2df19cd9-bd7f-4dee-9216-a448637d0f04"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NastiaPerepelytsina/Agency_1.git&quot;,
+    &quot;accountId&quot;: &quot;2df19cd9-bd7f-4dee-9216-a448637d0f04&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000003704506" />
-      <entry key="MS500" value="1.0130220389187057" />
-      <entry key="S2" value="1.4462879577924066" />
-      <entry key="S5" value="2.2638289808251235" />
-      <entry key="S10" value="2.9125417135230873" />
-      <entry key="S30" value="3.6156719790863234" />
-      <entry key="S60" value="4.134353932636965" />
-      <entry key="M2" value="4.9729791535134655" />
-      <entry key="M5" value="12.75784419902138" />
-      <entry key="M10" value="45.60451104554513" />
-      <entry key="M15" value="83.23921507796823" />
-      <entry key="M30" value="193.0646623566905" />
-      <entry key="H1" value="384.5255780752421" />
-      <entry key="H2" value="620.4007720001689" />
-      <entry key="H4" value="821.3383685535977" />
-      <entry key="D1" value="1060.6768942060219" />
-      <entry key="W1" value="1110.4221847403323" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000684084826115" />
+      <entry key="S5" value="1.0290883033383775" />
+      <entry key="S10" value="1.2559454804745207" />
+      <entry key="S30" value="2.2576899652261693" />
+      <entry key="S60" value="2.9931453593382016" />
+      <entry key="M2" value="6.145411633657985" />
+      <entry key="M5" value="32.07628437153098" />
+      <entry key="M10" value="78.45673131163737" />
+      <entry key="M15" value="121.73088399379228" />
+      <entry key="M30" value="239.86261264982923" />
+      <entry key="H1" value="440.5241064587326" />
+      <entry key="H2" value="692.6632940582579" />
+      <entry key="H4" value="912.6732702678476" />
+      <entry key="D1" value="1180.068529205764" />
+      <entry key="W1" value="1236.2855700614666" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.9651857439722543E-102" />
-      <entry key="S2" value="3.7457318879259295E-26" />
-      <entry key="S5" value="7.053866928523755E-11" />
-      <entry key="S10" value="9.957730433885244E-6" />
-      <entry key="S30" value="0.032209829741116636" />
-      <entry key="S60" value="0.2517384085133368" />
-      <entry key="M2" value="0.7080881324358863" />
-      <entry key="M5" value="1.3328733437354519" />
-      <entry key="M10" value="2.063727686920191" />
-      <entry key="M15" value="3.4565351720800908" />
-      <entry key="M30" value="10.60722234502461" />
-      <entry key="H1" value="25.181739074669114" />
-      <entry key="H2" value="42.18447110846118" />
-      <entry key="H4" value="55.82034593917559" />
-      <entry key="D1" value="71.32078695050122" />
-      <entry key="W1" value="74.46102546582198" />
+      <entry key="MS100" value="9.83198913240973E-35" />
+      <entry key="MS500" value="1.5795401759739317E-7" />
+      <entry key="S2" value="0.020902189662674243" />
+      <entry key="S5" value="0.27139207034683405" />
+      <entry key="S10" value="0.723598064959152" />
+      <entry key="S30" value="1.6575595634704954" />
+      <entry key="S60" value="2.193007366764422" />
+      <entry key="M2" value="2.715417545569301" />
+      <entry key="M5" value="3.7475365303098136" />
+      <entry key="M10" value="4.919838422169337" />
+      <entry key="M15" value="6.209673363401003" />
+      <entry key="M30" value="12.399096984765904" />
+      <entry key="H1" value="26.331422334034805" />
+      <entry key="H2" value="43.89566081826592" />
+      <entry key="H4" value="58.6166756662084" />
+      <entry key="D1" value="75.84596186449693" />
+      <entry key="W1" value="79.39005637980728" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9726549477676454" />
-      <entry key="MS500" value="1.0073843783351017" />
-      <entry key="S2" value="1.444000264027396" />
-      <entry key="S5" value="2.262272031436952" />
-      <entry key="S10" value="2.911515199240027" />
-      <entry key="S30" value="3.6415792755623193" />
-      <entry key="S60" value="4.362119046984726" />
-      <entry key="M2" value="5.646938821155394" />
-      <entry key="M5" value="14.064541968314638" />
-      <entry key="M10" value="47.646935175006" />
-      <entry key="M15" value="86.67156246290075" />
-      <entry key="M30" value="203.6359480184769" />
-      <entry key="H1" value="409.6655503308062" />
-      <entry key="H2" value="662.5503997465571" />
-      <entry key="H4" value="877.1356529695981" />
-      <entry key="D1" value="1131.9927624986258" />
-      <entry key="W1" value="1184.8824763190205" />
+      <entry key="MS100" value="1.8419182655201885E-11" />
+      <entry key="MS500" value="0.007129420546612229" />
+      <entry key="S2" value="0.2983645755369975" />
+      <entry key="S5" value="0.8160052236540374" />
+      <entry key="S10" value="1.5872398425156895" />
+      <entry key="S30" value="3.6470731477484155" />
+      <entry key="S60" value="5.009403692678236" />
+      <entry key="M2" value="8.754342435438097" />
+      <entry key="M5" value="35.76714581493777" />
+      <entry key="M10" value="83.33803096548968" />
+      <entry key="M15" value="127.9062581481026" />
+      <entry key="M30" value="252.22401665151418" />
+      <entry key="H1" value="466.8138938517087" />
+      <entry key="H2" value="736.5237119485756" />
+      <entry key="H4" value="971.2662393160579" />
+      <entry key="D1" value="1255.909346244321" />
+      <entry key="W1" value="1315.6748562740718" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -127,25 +133,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "bugs",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "D:/Anastasia/Projektor/Front end Development/Tasks/Agency_1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;bugs&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Anastasia/Projektor/Front end Development/Tasks/Agency_1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1777651297533" />
     <option name="spentUsd" value="0.0956781" />
@@ -172,6 +178,8 @@
       <workItem from="1789563550813" duration="1172000" />
       <workItem from="1789564751814" duration="167000" />
       <workItem from="1790499691178" duration="13130000" />
+      <workItem from="1790516801575" duration="673000" />
+      <workItem from="1790517579273" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="add branche">
       <option name="closed" value="true" />

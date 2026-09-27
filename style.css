@@ -423,7 +423,6 @@ footer .about .contact .denmark .tour .price {
     color: darkslategrey;
     text-align: left;
     line-height: 20px;
-    color: black;
 }
 
 .block_1 {
@@ -686,9 +685,36 @@ footer .about .contact .denmark .tour .price {
         max-width: 100%;
         padding: 0 15px;
     }
+
+    .team {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 15px;
+        padding: 30px 15px;
+    }
+
+    .item_team {
+        min-width: 0;
+        max-width: none;
+    }
+
+
+    .item_team img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+    .item_team h3{
+        font-size: 20px;
+        color:black;
+        text-align: center;
+    }
+
     .item_cnt p{
         text-align: left;
         line-height: 30px;
+
     }
     .com{
         display: flex;
@@ -717,14 +743,14 @@ footer .about .contact .denmark .tour .price {
     }
 
     .block_1 p {
-        width: 100%;
+        width: 800px;
         max-width: 100%;
         text-align: left;
         box-sizing: border-box;
     }
 
     .block_1 img {
-        width: 100%;
+        width: 75%;
         max-width: 100%;
         height: auto;
     }
