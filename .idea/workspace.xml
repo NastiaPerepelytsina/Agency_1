@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="pull request">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/price.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/tours.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,61 +58,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000000266" />
-      <entry key="S2" value="1.0004195996806928" />
-      <entry key="S5" value="1.0557921012930234" />
-      <entry key="S10" value="1.3185316292969063" />
-      <entry key="S30" value="2.0716160897132334" />
-      <entry key="S60" value="2.4619480552790316" />
-      <entry key="M2" value="2.851382895373134" />
-      <entry key="M5" value="12.94704527222144" />
-      <entry key="M10" value="50.48052745793127" />
-      <entry key="M15" value="90.12646978659606" />
-      <entry key="M30" value="201.6237785942581" />
-      <entry key="H1" value="392.9570213824213" />
-      <entry key="H2" value="626.3872706342321" />
-      <entry key="H4" value="823.9324218609524" />
-      <entry key="D1" value="1058.092921923994" />
-      <entry key="W1" value="1106.6338749879123" />
+      <entry key="MS100" value="1.0000000003704506" />
+      <entry key="MS500" value="1.0130220389187057" />
+      <entry key="S2" value="1.4462879577924066" />
+      <entry key="S5" value="2.2638289808251235" />
+      <entry key="S10" value="2.9125417135230873" />
+      <entry key="S30" value="3.6156719790863234" />
+      <entry key="S60" value="4.134353932636965" />
+      <entry key="M2" value="4.9729791535134655" />
+      <entry key="M5" value="12.75784419902138" />
+      <entry key="M10" value="45.60451104554513" />
+      <entry key="M15" value="83.23921507796823" />
+      <entry key="M30" value="193.0646623566905" />
+      <entry key="H1" value="384.5255780752421" />
+      <entry key="H2" value="620.4007720001689" />
+      <entry key="H4" value="821.3383685535977" />
+      <entry key="D1" value="1060.6768942060219" />
+      <entry key="W1" value="1110.4221847403323" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.131359975509233E-7" />
-      <entry key="MS500" value="0.06053863682666627" />
-      <entry key="S2" value="0.49624248889036504" />
-      <entry key="S5" value="0.7893873557694147" />
-      <entry key="S10" value="1.0533963687313916" />
-      <entry key="S30" value="1.5233472505259575" />
-      <entry key="S60" value="1.7312298203966203" />
-      <entry key="M2" value="1.8569060732289409" />
-      <entry key="M5" value="1.9600625502110742" />
-      <entry key="M10" value="2.5026084976498724" />
-      <entry key="M15" value="3.9306827837392895" />
-      <entry key="M30" value="11.31136926968345" />
-      <entry key="H1" value="26.00413868968841" />
-      <entry key="H2" value="42.86777923669745" />
-      <entry key="H4" value="56.27062153341569" />
-      <entry key="D1" value="71.41635127546039" />
-      <entry key="W1" value="74.47527043071679" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.9651857439722543E-102" />
+      <entry key="S2" value="3.7457318879259295E-26" />
+      <entry key="S5" value="7.053866928523755E-11" />
+      <entry key="S10" value="9.957730433885244E-6" />
+      <entry key="S30" value="0.032209829741116636" />
+      <entry key="S60" value="0.2517384085133368" />
+      <entry key="M2" value="0.7080881324358863" />
+      <entry key="M5" value="1.3328733437354519" />
+      <entry key="M10" value="2.063727686920191" />
+      <entry key="M15" value="3.4565351720800908" />
+      <entry key="M30" value="10.60722234502461" />
+      <entry key="H1" value="25.181739074669114" />
+      <entry key="H2" value="42.18447110846118" />
+      <entry key="H4" value="55.82034593917559" />
+      <entry key="D1" value="71.32078695050122" />
+      <entry key="W1" value="74.46102546582198" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.959987156047936E-7" />
-      <entry key="MS500" value="0.061741294840436355" />
-      <entry key="S2" value="0.5621834572443013" />
-      <entry key="S5" value="1.148619396045002" />
-      <entry key="S10" value="1.8545921143992008" />
-      <entry key="S30" value="3.3172037570749566" />
-      <entry key="S60" value="4.029879602987366" />
-      <entry key="M2" value="4.619098081049233" />
-      <entry key="M5" value="14.868685686043271" />
-      <entry key="M10" value="52.95733113196398" />
-      <entry key="M15" value="94.02966515710435" />
-      <entry key="M30" value="212.8968341753883" />
-      <entry key="H1" value="418.91803337942684" />
-      <entry key="H2" value="669.2196441660741" />
-      <entry key="H4" value="880.1797968638241" />
-      <entry key="D1" value="1129.5043481196285" />
-      <entry key="W1" value="1181.108411415169" />
+      <entry key="MS100" value="0.9726549477676454" />
+      <entry key="MS500" value="1.0073843783351017" />
+      <entry key="S2" value="1.444000264027396" />
+      <entry key="S5" value="2.262272031436952" />
+      <entry key="S10" value="2.911515199240027" />
+      <entry key="S30" value="3.6415792755623193" />
+      <entry key="S60" value="4.362119046984726" />
+      <entry key="M2" value="5.646938821155394" />
+      <entry key="M5" value="14.064541968314638" />
+      <entry key="M10" value="47.646935175006" />
+      <entry key="M15" value="86.67156246290075" />
+      <entry key="M30" value="203.6359480184769" />
+      <entry key="H1" value="409.6655503308062" />
+      <entry key="H2" value="662.5503997465571" />
+      <entry key="H4" value="877.1356529695981" />
+      <entry key="D1" value="1131.9927624986258" />
+      <entry key="W1" value="1184.8824763190205" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -179,7 +171,7 @@
       <workItem from="1775386872284" duration="19663000" />
       <workItem from="1789563550813" duration="1172000" />
       <workItem from="1789564751814" duration="167000" />
-      <workItem from="1790499691178" duration="11986000" />
+      <workItem from="1790499691178" duration="13130000" />
     </task>
     <task id="LOCAL-00001" summary="add branche">
       <option name="closed" value="true" />
@@ -309,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775455897013</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="responsive design">
+      <option name="closed" value="true" />
+      <created>1790511880950</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1790511880950</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +392,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add branche" />
     <MESSAGE value="pull request" />
-    <option name="LAST_COMMIT_MESSAGE" value="pull request" />
+    <MESSAGE value="responsive design" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive design" />
   </component>
 </project>
