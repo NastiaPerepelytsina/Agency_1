@@ -133,6 +133,7 @@ header p {
 
 .services{
     display: block;
+    flex-wrap: wrap;
 }
 .title_2{
     text-align: center;
