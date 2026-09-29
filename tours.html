@@ -11,37 +11,33 @@
 
 <body>
 
-<nav class="menu">
-
+<nav class="menu" id="mainMenu">
     <div class="logo">
-        <a href="index.html">
-            <img
-                src="img/logo.png"
-                alt="ViaVenture Travel logo"
-            >
-        </a>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
         <h1>ViaVenture Travel</h1>
     </div>
 
-    <ul class="item_menu">
+    <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="item_menu" id="menuList">
         <li><a href="about.html">About Company</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="tours.html">Tours</a></li>
         <li><a href="price.html">Pricing</a></li>
         <li>
             <select aria-label="Destination">
-                <option value="">Destination</option>
-                <option value="denmark">Denmark</option>
-                <option value="australia">Australia</option>
-                <option value="finland">Finland</option>
-                <option value="germany">Germany</option>
-                <option value="poland">Poland</option>
+                <option>Destination</option>
+                <option>Denmark</option>
+                <option>Australia</option>
+                <option>Finland</option>
+                <option>Germany</option>
+                <option>Poland</option>
             </select>
         </li>
     </ul>
-
 </nav>
-
 <div class="title">
     <h1>Our tours</h1>
 </div>
