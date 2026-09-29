@@ -10,10 +10,15 @@
 <body>
 <nav class="menu" id="mainMenu">
     <div class="logo">
-        <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
         <h1>ViaVenture Travel</h1>
     </div>
-    <ul class="item_menu">
+
+    <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="item_menu" id="menuList">
         <li><a href="about.html">About Company</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="tours.html">Tours</a></li>
@@ -29,7 +34,6 @@
             </select>
         </li>
     </ul>
-
 </nav>
 <main>
     <section class="block_1">
@@ -93,6 +97,8 @@
 
 </footer>
 
-<script src="script.js"></script>
+
+
+<script src="index.js"></script>
 </body>
 </html>

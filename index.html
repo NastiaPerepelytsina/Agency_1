@@ -6,14 +6,21 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
+
 <nav class="menu" id="mainMenu">
     <div class="logo">
-        <a href="index.html"><img src="img/logo.png" alt=""></a>
+        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
         <h1>ViaVenture Travel</h1>
     </div>
-    <ul class="item_menu">
+
+    <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="item_menu" id="menuList">
         <li><a href="about.html">About Company</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="tours.html">Tours</a></li>
@@ -29,7 +36,6 @@
             </select>
         </li>
     </ul>
-
 </nav>
 <main>
     <header>
@@ -104,9 +110,8 @@
     <section class="contact">
 
         <div class="item_cnt">
-            <p>ViaVenture Tours Australia‍Level 10, 123 Collins StreetMelbourne VIC 3000Australia
-                <br>Write a mail: <a
-                        href="http://" class="mail">info@viaventuretours.com</a></p>
+            <p>ViaVenture Tours <br>Level 10, 123 Collins Street<br>Melbourne VIC 3000 <b class="country">Australia</b>
+                <br><b class="mail_contact_page">Write a mail</b>: <a href="http://" class="mail">info@viaventuretours.com</a></p>
             <img src="img/contact.jpg">
 
         </div>
@@ -133,7 +138,7 @@
 
 </footer>
 
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
 

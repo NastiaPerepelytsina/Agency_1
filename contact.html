@@ -10,10 +10,15 @@
 <body>
 <nav class="menu" id="mainMenu">
   <div class="logo">
-    <a href="index.html"><img src="img/logo.png" alt=""></a>
+    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
     <h1>ViaVenture Travel</h1>
   </div>
-  <ul class="item_menu">
+
+  <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <ul class="item_menu" id="menuList">
     <li><a href="about.html">About Company</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="tours.html">Tours</a></li>
@@ -29,11 +34,6 @@
       </select>
     </li>
   </ul>
-
-
-
-
-
 </nav>
 <main>
 
@@ -47,8 +47,8 @@
   <section class="comunication">
     <div class="item_con">
       <h2>Contact</h2>
-      <p><a href="http://"><b>Mail</b>: info@viaventuretours.com</a><br>
-       <b>Phone</b> : +61 (555) 234-7788</p>
+      <p><a href="http://"><b class="mail">Mail</b>: info@viaventuretours.com</a><br>
+       <b class="phone">Phone</b> : +61 (555) 234-7788</p>
     </div>
     <div class="item_con">
       <h2>Our location</h2>
@@ -75,6 +75,6 @@
   </div>
 
 </footer>
-<script src="script.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
