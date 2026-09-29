@@ -858,9 +858,17 @@ footer {
         display: block;
         align-items: center;
     }
-    .price{
-        display: block;
+    .price {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+
+    .item_price {
+        width: 100%;
+        max-width: 360px;
     }
     .comunication {
         flex-direction: column;

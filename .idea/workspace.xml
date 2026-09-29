@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c1ba28d0-8f83-49ae-8adf-d26886bf693f" name="Changes" comment="responsive design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/price.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tours.html" beforeDir="false" afterPath="$PROJECT_DIR$/tours.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="github/main" />
   </component>
@@ -52,11 +49,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;NastiaPerepelytsina&quot;
+    }
+  ],
   &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
     &quot;assignee&quot;: &quot;NastiaPerepelytsina&quot;
   }
 }</component>
@@ -72,61 +72,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.929056915546711E-134" />
-      <entry key="S2" value="2.7294330475678237E-33" />
-      <entry key="S5" value="5.869941228862517E-13" />
-      <entry key="S10" value="4.860184026445294E-6" />
-      <entry key="S30" value="0.3073677223194954" />
-      <entry key="S60" value="5.613795295914868" />
-      <entry key="M2" value="24.940575184829722" />
-      <entry key="M5" value="64.25214711837705" />
-      <entry key="M10" value="97.9505661252271" />
-      <entry key="M15" value="121.78006597987944" />
-      <entry key="M30" value="191.42827983571507" />
-      <entry key="H1" value="377.15407356877853" />
-      <entry key="H2" value="766.3361991781494" />
-      <entry key="H4" value="1283.0499833176182" />
-      <entry key="D1" value="2179.4910596058576" />
-      <entry key="W1" value="2409.671375021547" />
+      <entry key="MS100" value="1.0000747180243075" />
+      <entry key="MS500" value="1.2641817577338021" />
+      <entry key="S2" value="3.643631511605482" />
+      <entry key="S5" value="8.640791645526411" />
+      <entry key="S10" value="16.848468450344534" />
+      <entry key="S30" value="45.84938884647361" />
+      <entry key="S60" value="77.7652197763254" />
+      <entry key="M2" value="113.28898465664606" />
+      <entry key="M5" value="162.90016722116306" />
+      <entry key="M10" value="207.53673374595465" />
+      <entry key="M15" value="233.02896019599848" />
+      <entry key="M30" value="280.16495042566817" />
+      <entry key="H1" value="389.9563493439926" />
+      <entry key="H2" value="699.2302804015779" />
+      <entry key="H4" value="1232.569885314424" />
+      <entry key="D1" value="2375.507393768649" />
+      <entry key="W1" value="2702.945163574204" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000000074083" />
-      <entry key="S2" value="1.0016497921585716" />
-      <entry key="S5" value="1.0770853225603516" />
-      <entry key="S10" value="1.277642436526464" />
-      <entry key="S30" value="1.6523732726996059" />
-      <entry key="S60" value="1.808850482018474" />
-      <entry key="M2" value="1.9357105205203218" />
-      <entry key="M5" value="2.473075814961785" />
-      <entry key="M10" value="4.386426222713508" />
-      <entry key="M15" value="7.128093153965931" />
-      <entry key="M30" value="16.87654915108009" />
-      <entry key="H1" value="36.03676514661391" />
-      <entry key="H2" value="66.86143922803961" />
-      <entry key="H4" value="103.60179387373022" />
-      <entry key="D1" value="164.08904399758046" />
-      <entry key="W1" value="179.28249480764157" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="4.992153664322055E-109" />
+      <entry key="S5" value="4.778759539602651E-44" />
+      <entry key="S10" value="2.1860374058104815E-22" />
+      <entry key="S30" value="6.024012513117563E-8" />
+      <entry key="S60" value="2.454565561677959E-4" />
+      <entry key="M2" value="0.01580034172255702" />
+      <entry key="M5" value="0.21789277232275517" />
+      <entry key="M10" value="0.6053181638559827" />
+      <entry key="M15" value="0.918446933589916" />
+      <entry key="M30" value="2.56479241377156" />
+      <entry key="H1" value="11.44059118681836" />
+      <entry key="H2" value="36.71029039393072" />
+      <entry key="H4" value="76.76083508853591" />
+      <entry key="D1" value="157.42319019089052" />
+      <entry key="W1" value="179.8985948209405" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.042853253207185E-8" />
-      <entry key="MS500" value="0.03138023572632296" />
-      <entry key="S2" value="0.42145489288297394" />
-      <entry key="S5" value="0.7577671303438457" />
-      <entry key="S10" value="1.0655003270309027" />
-      <entry key="S30" value="1.8589756531621118" />
-      <entry key="S60" value="7.365572841969023" />
-      <entry key="M2" value="26.84294928339072" />
-      <entry key="M5" value="66.69840801592812" />
-      <entry key="M10" value="102.298970757382" />
-      <entry key="M15" value="128.86145261786183" />
-      <entry key="M30" value="208.24664714890486" />
-      <entry key="H1" value="413.1279250789566" />
-      <entry key="H2" value="833.1392796445668" />
-      <entry key="H4" value="1386.606839094244" />
-      <entry key="D1" value="2343.5683394796447" />
-      <entry key="W1" value="2588.952036561128" />
+      <entry key="MS100" value="0.9527101918604326" />
+      <entry key="MS500" value="1.252800176104714" />
+      <entry key="S2" value="3.6365200322844027" />
+      <entry key="S5" value="8.633996625761993" />
+      <entry key="S10" value="16.841889180461692" />
+      <entry key="S30" value="45.84355507399979" />
+      <entry key="S60" value="77.76052263216509" />
+      <entry key="M2" value="113.30082182414185" />
+      <entry key="M5" value="163.11392446676746" />
+      <entry key="M10" value="208.13785824127743" />
+      <entry key="M15" value="233.9433908277185" />
+      <entry key="M30" value="282.72278949715707" />
+      <entry key="H1" value="401.3782102315231" />
+      <entry key="H2" value="735.9092312082765" />
+      <entry key="H4" value="1309.2977931331" />
+      <entry key="D1" value="2532.9193611703004" />
+      <entry key="W1" value="2882.841927937034" />
     </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
@@ -190,7 +190,8 @@
       <workItem from="1790517579273" duration="2844000" />
       <workItem from="1790529312653" duration="2569000" />
       <workItem from="1790609177336" duration="2811000" />
-      <workItem from="1790668356469" duration="11972000" />
+      <workItem from="1790668356469" duration="16262000" />
+      <workItem from="1790701102163" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="add branche">
       <option name="closed" value="true" />
@@ -352,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790529765896</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="responsive design">
+      <option name="closed" value="true" />
+      <created>1790684292143</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1790684292143</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +429,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
