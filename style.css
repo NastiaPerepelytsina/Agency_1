@@ -598,9 +598,9 @@ footer .about .contact .denmark .tour .price {
     display: flex;
     background-color: darkslategrey;
     justify-content: center;
+    align-items: center;
     gap: 80px;
     padding: 40px;
-
 }
 
 .title_price {
@@ -618,7 +618,8 @@ footer .about .contact .denmark .tour .price {
 
 .item_price {
     background-color: white;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -779,20 +780,6 @@ footer {
         padding: 15px;
     }
 
-    .about p,
-    .item_cnt p {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-
-    .team {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 30px 15px;
-        padding: 30px 15px;
-    }
-
     .item_team {
         min-width: 0;
         max-width: none;
@@ -867,6 +854,7 @@ footer {
     }
 
     .item_price {
+        align-items: center;
         width: 100%;
         max-width: 360px;
     }
@@ -894,37 +882,10 @@ footer {
         max-width: 400px;
     }
 
-    .item_menu {
-        flex-direction: column;
-    }
 
-    .item_menu a {text-align: center;
-        margin-bottom: 5px;
-        flex-direction: column;
-    }
-    select{
+    .select{
         font-size: 16px;
         border:none
-    }
-    option{
-        font-size: 16px;
-        padding: 10px;
-    }
-    .menu h1{
-        display: none;
-    }
-    .menu img{
-        align-items: center;
-
-    }
-    .card {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 15px;
-        padding: 15px;
-        margin: 0 auto;
-        justify-items: center;
-        align-items: start;
     }
 
     .card .item {
@@ -981,7 +942,7 @@ footer {
         aspect-ratio: 1;
         object-fit: cover;
     }
-    .item_team h3{
+    .item_team h1{
         font-size: 20px;
         color:black;
         text-align: center;
@@ -998,31 +959,6 @@ footer {
     }
     .item_cnt .mail_contact_page{
         font-size: 20px;
-    }
-    .com{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .com a{
-        font-size: 16px;
-    }
-    .com img{
-        display: block;
-        margin: 0 auto;
-        width: 50px;
-        height: auto;
-    }
-    footer{
-        display: block;
-        align-items: center;
-    }
-    .block_1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 10px;
     }
 
     .block_1 p {
@@ -1042,7 +978,8 @@ footer {
         align-items: center;
     }
     .price{
-        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
     .burger_btn {
