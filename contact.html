@@ -1,124 +1,80 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-
 <nav class="menu" id="mainMenu">
-    <div class="logo">
-        <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
-        <h1>ViaVenture Travel</h1>
-    </div>
+  <div class="logo">
+    <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+    <h1>ViaVenture Travel</h1>
+  </div>
 
-    <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню">
-        <i class="fa-solid fa-bars"></i>
-    </button>
+  <button class="burger_btn" id="burgerBtn" type="button" aria-label="Открыть меню" aria-expanded="false">
+    &#9776;
+  </button>
 
-    <ul class="item_menu" id="menuList">
-        <li><a href="about.html">About Company</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="tours.html">Tours</a></li>
-        <li><a href="price.html">Pricing</a></li>
-        <li>
-            <select aria-label="Destination">
-                <option>Destination</option>
-                <option>Denmark</option>
-                <option>Australia</option>
-                <option>Finland</option>
-                <option>Germany</option>
-                <option>Poland</option>
-            </select>
-        </li>
-    </ul>
+  <ul class="item_menu" id="menuList">
+    <li><a href="about.html">About Company</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="tours.html">Tours</a></li>
+    <li><a href="price.html">Pricing</a></li>
+    <li>
+      <select aria-label="Destination">
+        <option>Destination</option>
+        <option>Denmark</option>
+        <option>Australia</option>
+        <option>Finland</option>
+        <option>Germany</option>
+        <option>Poland</option>
+      </select>
+    </li>
+  </ul>
 </nav>
-
 <main>
 
-    <div class="title_contact">
 
-        <h1>
-            We support you in your travels<br>
-            We wish you a safe and enjoyable journey
-        </h1>
+  <div class="title_contact">
+  <h1>We support you in your travels <br>
+    We wish you a safe and enjoyable journey</h1>
+    <img src="img/contact%20page.jpg">
 
-        <img
-            src="img/contact%20page.jpg"
-            alt="Contact ViaVenture Travel"
-        >
-
+  </div>
+  <section class="comunication">
+    <div class="item_con">
+      <h2>Contact</h2>
+      <p><a href="http://"><b class="mail">Mail</b>: info@viaventuretours.com</a><br>
+       <b class="phone">Phone</b> : +61 (555) 234-7788</p>
     </div>
-
-    <section class="comunication">
-
-        <div class="item_con">
-
-            <h2>Contact</h2>
-
-            <p>
-                <a href="mailto:info@viaventuretours.com">
-                    Mail: info@viaventuretours.com
-                </a>
-                <br>
-                Phone: +61 (555) 234-7788
-            </p>
-
-        </div>
-
-        <div class="item_con">
-
-            <h2>Our location</h2>
-
-            <p>
-                Level 10,<br>
-                123 Collins Street<br>
-                Melbourne VIC 3000<br>
-                Australia
-            </p>
-
-        </div>
-
-    </section>
-
+    <div class="item_con">
+      <h2>Our location</h2>
+      <p>Level 10, <br>123 Collins Street<br> Melbourne VIC 3000 <br><b>Australia</b></br></p>
+    </div>
+  </section>
 </main>
-
 <footer>
+  <div class="com">
+    <img src="img/logo.png">
 
-    <div class="com">
-        <img
-            src="img/logo.png"
-            alt="ViaVenture Travel logo"
-        >
-    </div>
+  </div>
+  <div class="com">
+    <a class="link" href="http://">Company</a>
+    <a class="link_item" href="about.html">About company</a>
+    <a class="link_item" href="tours.html">Tours</a>
 
-    <div class="com">
-        <a class="link" href="#">Company</a>
-        <a class="link_item" href="about.html">
-            About company
-        </a>
-        <a class="link_item" href="tours.html">
-            Tours
-        </a>
-    </div>
+  </div>
+  <div class="com">
+    <a class="link" href="http://">Useful links</a>
+    <a class="link_item" href="price.html">Pricing</a>
+    <a class="link_item" href="contact.html">Contact</a>
 
-    <div class="com">
-        <a class="link" href="#">Useful links</a>
-        <a class="link_item" href="price.html">
-            Pricing
-        </a>
-        <a class="link_item" href="contact.html">
-            Contact
-        </a>
-    </div>
+  </div>
 
 </footer>
-
+<script src="index.js"></script>
 </body>
 </html>
-
-

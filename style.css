@@ -10,33 +10,79 @@ img {
     display: flex;
     background-color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 30px;
     position: relative;
+}
+.menu_mobile{
+    background-color: white;
+animation:slide 0.9s;
+    transition-duration: 0.9s;
+    box-shadow: 0 10px 27px darkgrey;
+}
+.menu_mobile a{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    color: black;
+    font-size: 20px;
+}
+.menu_mobile li{
+    list-style: none;
 }
 
 body {
     margin: 0;
 }
-.item_menu{
-    position: absolute;
-    top: 80px;
-    left: 20px;
+.item_menu_mobile{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    background-color: #ffffff;
+    box-shadow: none;
+    position: static;
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
     gap: 15px;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 5px 15px #999;
-    transform: translateX(-130%);
-    transition: transform 0.4s ease;
-    z-index: 10;
-    list-style: none;
 }
-.item_menu a{
+.item_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.item_menu a {
     text-decoration: none;
     color: darkslategrey;
     font-weight: bolder;
     font-family: Arial, serif;
+    transition: color 0.2s ease;
+}
+.menu_mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 10px 27px darkgrey;
+    z-index: 1000;
+    padding: 10px 20px 20px 20px;
+    display: none;
+    overflow-y: auto;
+}
+.menu_mobile.active {
+    display: block;
+    animation: slide 0.4s ease-in-out;
+}
+
+.burger_btn i:hover{
+    color: cadetblue;
 }
 .logo{
     display: flex;
@@ -44,11 +90,22 @@ body {
     align-items: center;
     cursor: pointer;
 }
-.menu.open .item_menu,
-.logo:hover + .item_menu,
-.item_menu:hover {
-    transform: translateX(0);
+.burger_btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1001;
 }
+.burger_btn::before {
+    content: none;
+}
+.burger_btn i {
+    display: none;
+}
+
 .logo img{
     width: 80px;
     height: 80px;
@@ -58,11 +115,7 @@ body {
 .logo h1 {
     font-size: 25px;
     color: darkslategrey;
-    font-family: Algerian, serif;
-}
-
-.logo h1 {
-    font-family: Algerian, serif;
+    font-family: Arial, serif;
 }
 
 header {
@@ -152,11 +205,13 @@ header p {
     font-size: 20px;
 }
 .card{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
     justify-content: center;
-    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
     padding-bottom: 15px;
-    flex-wrap: wrap;
 }
 button{
     text-align: center;
@@ -204,18 +259,18 @@ button{
 }
 .title_contact{
     font-family: Arial, serif;
-    font-size: 20px;
+    font-size: 35px;
     color: cadetblue;
     text-align: center;
 }
 .item_cnt p{
     font-family: Arial, serif;
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     text-align: left;
     width: 400px;
     padding: 10px;
-    line-height: 20px;
+    line-height: 25px;
 }
 .item_cnt img{
     width: 500px;
@@ -260,10 +315,11 @@ footer{
 
 
 .about {
+    align-content: center;
     display: flex;
     justify-content: center;
     gap: 15px;
-    align-items: center;
+    margin: auto;
     padding-bottom: 25px;
 }
 
@@ -282,9 +338,11 @@ footer{
 .about p {
     width: 100%;
     max-width: 600px;
+    text-align: left;
     font-family: Arial, serif;
     color: black;
     line-height: 25px;
+    align-content: center;
 }
 
 .item_team {
@@ -303,12 +361,13 @@ footer{
     font-size: 18px;
     font-family: Arial, serif;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .team {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+    place-items: center;
     justify-content: center;
     gap: 30px;
     padding: 30px 15px;
@@ -361,6 +420,18 @@ footer .about .contact .denmark .tour .price {
 .title_contact {
     display: block;
     text-align: center;
+   place-content: center;
+}
+.title_contact h1{
+    font-size: 20px;
+    font-family: Arial, serif;
+    text-align: center;
+    color: cadetblue
+}
+.title_contact img{
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .com img {
@@ -372,21 +443,27 @@ footer .about .contact .denmark .tour .price {
 
 .item_con {
     display: block;
-    line-height: 40px;
     padding: 10px;
 }
 
 .item_con a {
     text-decoration: none;
+    font-family: Arial, serif;
+    font-size: 16px;
     color: black;
 }
-
+.item_con .mail{
+    font-size: 20px;
+}
+.item_con .phone{
+    font-size: 20px;
+}
 .item_con h2 {
     font-family: Arial, serif;
-    font-size: 20px;
+    font-size: 30px;
     color: darkslategrey;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 
 .item_con p {
@@ -395,6 +472,11 @@ footer .about .contact .denmark .tour .price {
     color: darkslategrey;
     text-align: left;
     line-height: 20px;
+}
+.comunication{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .block_1 {
@@ -506,9 +588,10 @@ footer .about .contact .denmark .tour .price {
 }
 
 .block_1 p {
-    width: 600px;
+    width: 100%;
+    max-width: 400px;
     font-family: Arial, serif;
-    font-size: 18px;
+    font-size: 16px;
     color: darkslategrey;
     line-height: 30px;
 }
@@ -517,9 +600,9 @@ footer .about .contact .denmark .tour .price {
     display: flex;
     background-color: darkslategrey;
     justify-content: center;
+    align-items: center;
     gap: 80px;
     padding: 40px;
-
 }
 
 .title_price {
@@ -537,7 +620,8 @@ footer .about .contact .denmark .tour .price {
 
 .item_price {
     background-color: white;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -584,16 +668,56 @@ footer .about .contact .denmark .tour .price {
     padding: 10px;
     align-items: center;
 }
+footer .com a{
+    font-size: 16px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media screen and (max-width: 768px) {
+    .menu_mobile {
+        display: block;
+        padding: 10px 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 101;
+    }
+
     .menu {
-        flex-direction: column;
+        justify-content: center;
+        min-height: 80px;
+        padding: 0 70px 0 20px;
     }
 
     .item_menu {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        width: 100%;
+        padding: 20px;
         flex-direction: column;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transform: translateY(-10px);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s ease;
     }
-
+    .menu.open .item_menu {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    .text p{
+        text-align: left;
+        padding: 8px;
+        width: 100%;
+        max-width: 500px;
+    }
     .item_menu a {text-align: center;
     margin-bottom: 5px;
         flex-direction: column;
@@ -647,22 +771,15 @@ footer .about .contact .denmark .tour .price {
     .about img,
     .item_cnt img {
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
         height: auto;
+        padding: 15px;
     }
-
-    .about p,
-    .item_cnt p {
+    .dest_item img{
         width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-
-    .team {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 30px 15px;
-        padding: 30px 15px;
+        max-width: 400px;
+        height: auto;
+        padding: 15px;
     }
 
     .item_team {
@@ -730,47 +847,48 @@ footer .about .contact .denmark .tour .price {
         display: block;
         align-items: center;
     }
-    .price{
-        display: block;
+    .price {
+        display: flex;
+        flex-direction: row;
         align-items: center;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+
+    .item_price {
+        align-items: center;
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: 360px;
+    }
+    .comunication {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .item_con {
+        width: 100%;
+        text-align: center;
+    }
+    .title_contact{
+        font-size: 40px;
     }
 }
 @media screen and (max-width: 576px) {
     .menu {
         flex-direction: column;
     }
-
-    .item_menu {
-        flex-direction: column;
+    .item_cnt p{
+      width: 100%;
+        max-width: 400px;
     }
 
-    .item_menu a {text-align: center;
-        margin-bottom: 5px;
-        flex-direction: column;
-    }
-    select{
+
+    .select{
         font-size: 16px;
         border:none
-    }
-    option{
-        font-size: 16px;
-        padding: 10px;
-    }
-    .menu h1{
-        display: none;
-    }
-    .menu img{
-        align-items: center;
-
-    }
-    .card {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 15px;
-        padding: 15px;
-        margin: 0 auto;
-        justify-items: center;
-        align-items: start;
     }
 
     .card .item {
@@ -827,41 +945,23 @@ footer .about .contact .denmark .tour .price {
         aspect-ratio: 1;
         object-fit: cover;
     }
-    .item_team h3{
+    .item_team h1{
         font-size: 20px;
         color:black;
         text-align: center;
     }
 
     .item_cnt p{
-        text-align: left;
+        text-align: center;
         line-height: 30px;
+        font-size: 18px;
 
     }
-    .com{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .item_cnt .county{
+        font-size: 20px;
     }
-    .com a{
-        font-size: 16px;
-    }
-    .com img{
-        display: block;
-        margin: 0 auto;
-        width: 50px;
-        height: auto;
-    }
-    footer{
-        display: block;
-        align-items: center;
-    }
-    .block_1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 10px;
+    .item_cnt .mail_contact_page{
+        font-size: 20px;
     }
 
     .block_1 p {
@@ -881,7 +981,46 @@ footer .about .contact .denmark .tour .price {
         align-items: center;
     }
     .price{
-        display: block;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+    }
+    .item_price {
+        flex: 0 1 auto;
+        width: 100%;
+        max-width: 360px;
+    }
+    .burger_btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .item_menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 15px;
+        z-index: 1000;
+    }
+
+    .menu.open .item_menu,
+    .item_menu_mobile.active {
+        display: flex;
+        animation: slide 0.3s ease-in-out;
+    }
+    footer .com{
+        font-size: 16px;
     }
 }
