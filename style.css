@@ -100,7 +100,7 @@ body {
     z-index: 1001;
 }
 .burger_btn::before {
-    content: "☰";
+    content: none;
 }
 .burger_btn i {
     display: none;
@@ -205,11 +205,13 @@ header p {
     font-size: 20px;
 }
 .card{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
     justify-content: center;
-    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
     padding-bottom: 15px;
-    flex-wrap: wrap;
 }
 button{
     text-align: center;
@@ -705,7 +707,7 @@ footer {
         visibility: hidden;
         transition: transform 0.4s ease, opacity 0.4s ease, visibility 0.4s ease;
     }
-    .item_menu.active {
+    .menu.open .item_menu {
         transform: translateY(0);
         opacity: 1;
         visibility: visible;
@@ -847,7 +849,7 @@ footer {
     }
     .price {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 30px;
         padding: 30px 15px;
@@ -855,7 +857,8 @@ footer {
 
     .item_price {
         align-items: center;
-        width: 100%;
+        flex: 1 1 0;
+        min-width: 0;
         max-width: 360px;
     }
     .comunication {
@@ -982,6 +985,11 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .item_price {
+        flex: 0 1 auto;
+        width: 100%;
+        max-width: 360px;
+    }
     .burger_btn {
         display: flex;
         align-items: center;
@@ -1007,7 +1015,7 @@ footer {
         z-index: 1000;
     }
 
-    .item_menu.active,
+    .menu.open .item_menu,
     .item_menu_mobile.active {
         display: flex;
         animation: slide 0.3s ease-in-out;

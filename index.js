@@ -1,8 +1,7 @@
-const burgerBtn = document.querySelector('#burgerBtn');
-const menuList = document.querySelector('#menuList');
+const menu = document.getElementById("mainMenu");
+const burger = document.getElementById("burgerBtn");
 
-if (burgerBtn && menuList) {
-    burgerBtn.addEventListener('click', () => {
-        menuList.classList.toggle('active');
-    });
-}
+burger.addEventListener("click", () => {
+    const isOpen = menu.classList.toggle("open");
+    burger.setAttribute("aria-expanded", isOpen);
+});
